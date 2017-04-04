@@ -1,0 +1,8 @@
+version: '2'
+services:
+  paohui_nginx:
+    image: "hub.c.163.com/paohui02/paohui_nginx:latest"
+    ports:
+     - "80:80"
+
+
